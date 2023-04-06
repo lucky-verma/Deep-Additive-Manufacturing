@@ -9,7 +9,7 @@ Here's a PyTorch implementation of PredNet to perform 3D convolutional predictio
 
 ```python
 import torch
-from test import PredNet
+from models.final import PredNet
 
 model = PredNet()
 input_tensor = torch.randn(1, 1, 32, 32, 32)
